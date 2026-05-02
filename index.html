@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIX Entropie Dashboard | meine-geldseite.de</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --navy: #1B2A4A;
+    --navy-light: #2a3d63;
+    --gold: #C9A961;
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #1B2A4A;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --green: #16a34a;
+    --yellow: #ca8a04;
+    --orange: #ea580c;
+    --red: #dc2626;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .container { max-width: 1200px; margin: 0 auto; }
+
+  header {
+    background: var(--navy);
+    color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+  }
+  header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  header .subtitle { color: rgba(255,255,255,0.75); font-size: 15px; }
+  header .meta { color: var(--gold); font-size: 13px; margin-top: 12px; font-family: monospace; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--card);
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  .card .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .card .value {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--navy);
+  }
+  .card .sub {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .regime-card {
+    color: white;
+    grid-column: span 3;
+    padding: 28px 32px;
+    border-radius: 12px;
+  }
+  @media (max-width: 768px) { .regime-card { grid-column: span 1; } }
+  .regime-card .label { color: rgba(255,255,255,0.8); }
+  .regime-card h2 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+  .regime-card p { font-size: 15px; opacity: 0.95; }
+  .regime-low { background: linear-gradient(135deg, #16a34a, #15803d); }
+  .regime-moderate { background: linear-gradient(135deg, #65a30d, #4d7c0f); }
+  .regime-elevated { background: linear-gradient(135deg, #ca8a04, #a16207); }
+  .regime-danger_zone { background: linear-gradient(135deg, #ea580c, #c2410c); }
+  .regime-high { background: linear-gradient(135deg, #dc2626, #991b1b); }
+
+  .chart-card { background: var(--card); padding: 24px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 24px; }
+  .chart-card h3 { font-size: 18px; margin-bottom: 16px; color: var(--navy); }
+  .chart-wrap { position: relative; height: 360px; }
+
+  .bin-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .bin-cell {
+    background: var(--bg);
+    padding: 12px 8px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--border);
+  }
+  .bin-cell .bin-label { font-size: 11px; color: var(--muted); font-family: monospace; }
+  .bin-cell .bin-count { font-size: 22px; font-weight: 700; color: var(--navy); margin-top: 4px; }
+  .bin-cell.active { background: var(--navy); color: white; border-color: var(--navy); }
+  .bin-cell.active .bin-label { color: rgba(255,255,255,0.7); }
+  .bin-cell.active .bin-count { color: white; }
+
+  .explanation {
+    background: var(--card);
+    padding: 32px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  .explanation h3 { font-size: 20px; color: var(--navy); margin-bottom: 12px; }
+  .explanation p { margin-bottom: 12px; color: #374151; }
+  .explanation table { width: 100%; margin-top: 16px; border-collapse: collapse; }
+  .explanation th, .explanation td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); font-size: 14px; }
+  .explanation th { background: var(--bg); font-weight: 600; color: var(--navy); }
+  .pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; color: white; }
+  .pill-low { background: var(--green); }
+  .pill-moderate { background: #65a30d; }
+  .pill-elevated { background: var(--yellow); }
+  .pill-danger { background: var(--orange); }
+  .pill-high { background: var(--red); }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--navy); text-decoration: none; font-weight: 600; }
+
+  .loading { text-align: center; padding: 60px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>VIX Entropie Dashboard</h1>
+    <div class="subtitle">Frühwarnsystem für Marktstress nach der Methode von Thorsten Wegener</div>
+    <div class="meta" id="updated">Lade Daten...</div>
+  </header>
+
+  <div id="content" class="loading">Daten werden geladen...</div>
+
+  <div class="explanation">
+    <h3>Was zeigt dieses Dashboard?</h3>
+    <p>
+      Der <strong>VIX</strong> misst die Höhe der erwarteten Marktbewegung. Die <strong>Shannon-Entropie</strong> misst, wie chaotisch die täglichen VIX-Veränderungen der letzten 21 Tage verteilt sind. Beide Indikatoren zusammen ergeben ein präziseres Bild als der VIX allein.
+    </p>
+    <p>
+      Die täglichen VIX-Veränderungen werden in 6 Klassen einsortiert (von "großer Crash" bis "großer Spike"). Wenn alle 6 Klassen ungefähr gleich oft vorkommen, ist die Entropie maximal – der Markt zeigt keine Richtung mehr und ist anfällig für Schocks. Besonders kritisch: <strong>niedriger VIX bei hoher Entropie</strong> ("Danger Zone") – die Oberfläche wirkt ruhig, darunter brodelt es.
+    </p>
+    <table>
+      <thead>
+        <tr><th>Regime</th><th>Entropie</th><th>Bedeutung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="pill pill-low">LOW</span></td><td>0–40 %</td><td>Geordneter Markt mit klarer Richtung. Trend-Strategien funktionieren gut.</td></tr>
+        <tr><td><span class="pill pill-moderate">MODERATE</span></td><td>40–65 %</td><td>Normale Bedingungen, leichte Unsicherheit, dominante Richtung erkennbar.</td></tr>
+        <tr><td><span class="pill pill-elevated">ELEVATED</span></td><td>65–80 %</td><td>Erhöhte Unordnung, mehrere Bins aktiv. Positionsgrößen reduzieren.</td></tr>
+        <tr><td><span class="pill pill-danger">DANGER ZONE</span></td><td>≥65 % bei VIX&lt;22</td><td>Stille Oberfläche, wilde Strömungen darunter. Hedges aufstocken.</td></tr>
+        <tr><td><span class="pill pill-high">HIGH</span></td><td>≥80 %</td><td>Maximale Unordnung. Alle Ausgänge gleich wahrscheinlich. Höchste Vorsicht.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    Entropie nach Wegener (2026) · 21-Tage-Rolling-Fenster, 6 Bins · Daten: Yahoo Finance VIX · Aktualisierung täglich nach US-Börsenschluss<br>
+    Nur zu Bildungs- und Informationszwecken. Keine Anlageberatung. · <a href="https://meine-geldseite.de" target="_blank">meine-geldseite.de</a>
+  </footer>
+
+</div>
+
+<script>
+const REGIME_INFO = {
+  low:        { name: "LOW",         desc: "Geordneter Markt – klare Richtung, niedriges Risiko.", cls: "regime-low" },
+  moderate:   { name: "MODERATE",    desc: "Normale Bedingungen – leichte Unsicherheit, aber dominante Richtung.", cls: "regime-moderate" },
+  elevated:   { name: "ELEVATED",    desc: "Erhöhte Unordnung – mehrere Outcomes aktiv. Vorsicht angebracht.", cls: "regime-elevated" },
+  danger_zone:{ name: "DANGER ZONE", desc: "Niedriger VIX bei hoher Entropie – stille Oberfläche, wilde Strömungen darunter.", cls: "regime-danger_zone" },
+  high:       { name: "HIGH",        desc: "Maximale Unordnung – alle Ausgänge gleich wahrscheinlich. Höchste Vorsicht.", cls: "regime-high" }
+};
+
+async function load() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    document.getElementById('content').innerHTML = '<p style="color:#dc2626">Fehler beim Laden der Daten.</p>';
+    console.error(e);
+  }
+}
+
+function render(data) {
+  const latest = data.latest;
+  const regime = REGIME_INFO[latest.regime] || REGIME_INFO.moderate;
+
+  document.getElementById('updated').textContent = 'Aktualisiert: ' + data.updated_utc + ' · Datenstand: ' + latest.date;
+
+  const dist = data.current_bin_distribution;
+  const binOrder = ["<-4", "-4..-2", "-2..0", "0..+2", "+2..+4", ">+4"];
+  const binLabels = ["<-4", "-4 bis -2", "-2 bis 0", "0 bis +2", "+2 bis +4", ">+4"];
+
+  let binHTML = '<div class="bin-grid">';
+  binOrder.forEach((k, i) => {
+    const count = dist[k] || 0;
+    const cls = count > 0 ? 'active' : '';
+    binHTML += `<div class="bin-cell ${cls}">
+      <div class="bin-label">${binLabels[i]}</div>
+      <div class="bin-count">${count}</div>
+    </div>`;
+  });
+  binHTML += '</div>';
+
+  document.getElementById('content').innerHTML = `
+    <div class="grid">
+      <div class="card regime-card ${regime.cls}">
+        <div class="label">Aktuelles Regime</div>
+        <h2>${regime.name}</h2>
+        <p>${regime.desc}</p>
+      </div>
+
+      <div class="card">
+        <div class="label">VIX</div>
+        <div class="value">${latest.vix.toFixed(2)}</div>
+        <div class="sub">Implizite Volatilität S&P 500</div>
+      </div>
+
+      <div class="card">
+        <div class="label">Entropie (21 Tage)</div>
+        <div class="value">${latest.entropy.toFixed(1)}%</div>
+        <div class="sub">Shannon-Entropie der VIX-Veränderungen</div>
+      </div>
+
+      <div class="card">
+        <div class="label">Aktive Bins</div>
+        <div class="value">${latest.active_bins}/6</div>
+        <div class="sub">Klassen mit Bewegung in 21 Tagen</div>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <h3>VIX & Entropie (letzte 12 Monate)</h3>
+      <div class="chart-wrap"><canvas id="mainChart"></canvas></div>
+    </div>
+
+    <div class="chart-card">
+      <h3>Aktuelle Verteilung der täglichen VIX-Veränderungen (21 Tage)</h3>
+      <p style="color:var(--muted);font-size:14px;">Wie oft fiel die tägliche VIX-Veränderung in welche Klasse? Je gleichmäßiger verteilt, desto höher die Entropie.</p>
+      ${binHTML}
+    </div>
+  `;
+
+  drawChart(data.history);
+}
+
+function drawChart(history) {
+  const ctx = document.getElementById('mainChart').getContext('2d');
+  const labels = history.map(p => p.date);
+  const vix = history.map(p => p.vix);
+  const ent = history.map(p => p.entropy);
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: 'VIX',
+          data: vix,
+          borderColor: '#1B2A4A',
+          backgroundColor: 'rgba(27, 42, 74, 0.08)',
+          borderWidth: 2,
+          tension: 0.2,
+          yAxisID: 'y',
+          pointRadius: 0,
+          pointHoverRadius: 4,
+          fill: true
+        },
+        {
+          label: 'Entropie %',
+          data: ent,
+          borderColor: '#C9A961',
+          backgroundColor: 'rgba(201, 169, 97, 0.0)',
+          borderWidth: 2,
+          tension: 0.2,
+          yAxisID: 'y1',
+          pointRadius: 0,
+          pointHoverRadius: 4
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'top', labels: { color: '#1B2A4A', font: { size: 13 } } },
+        tooltip: { backgroundColor: '#1B2A4A', padding: 12 }
+      },
+      scales: {
+        x: { ticks: { color: '#6b7280', maxTicksLimit: 12, autoSkip: true }, grid: { display: false } },
+        y: {
+          type: 'linear', position: 'left',
+          title: { display: true, text: 'VIX', color: '#1B2A4A' },
+          ticks: { color: '#1B2A4A' },
+          grid: { color: 'rgba(0,0,0,0.05)' }
+        },
+        y1: {
+          type: 'linear', position: 'right',
+          title: { display: true, text: 'Entropie %', color: '#C9A961' },
+          ticks: { color: '#C9A961' },
+          grid: { display: false },
+          min: 0, max: 100
+        }
+      }
+    }
+  });
+}
+
+load();
+</script>
+</body>
+</html>

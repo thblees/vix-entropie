@@ -1,0 +1,2036 @@
+{
+  "updated_utc": "2026-05-02 13:33 UTC",
+  "latest": {
+    "date": "2026-05-01",
+    "vix": 16.99,
+    "entropy": 45.1,
+    "active_bins": 3,
+    "regime": "moderate"
+  },
+  "current_bin_distribution": {
+    "<-4": 1,
+    "-4..-2": 0,
+    "-2..0": 13,
+    "0..+2": 7,
+    "+2..+4": 0,
+    ">+4": 0
+  },
+  "history": [
+    {
+      "date": "2025-05-01",
+      "vix": 24.6,
+      "dvix": -0.1,
+      "entropy": 92.78,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2025-05-02",
+      "vix": 22.68,
+      "dvix": -1.92,
+      "entropy": 92.78,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2025-05-05",
+      "vix": 23.64,
+      "dvix": 0.96,
+      "entropy": 93.45,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2025-05-06",
+      "vix": 24.76,
+      "dvix": 1.12,
+      "entropy": 92.78,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2025-05-07",
+      "vix": 23.55,
+      "dvix": -1.21,
+      "entropy": 91.8,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2025-05-08",
+      "vix": 22.48,
+      "dvix": -1.07,
+      "entropy": 88.86,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2025-05-09",
+      "vix": 21.9,
+      "dvix": -0.58,
+      "entropy": 84.2,
+      "active_bins": 6.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-05-12",
+      "vix": 18.39,
+      "dvix": -3.51,
+      "entropy": 81.24,
+      "active_bins": 6.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-05-13",
+      "vix": 18.22,
+      "dvix": -0.17,
+      "entropy": 79.25,
+      "active_bins": 6.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-05-14",
+      "vix": 18.62,
+      "dvix": 0.4,
+      "entropy": 72.6,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-05-15",
+      "vix": 17.83,
+      "dvix": -0.79,
+      "entropy": 72.6,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-05-16",
+      "vix": 17.24,
+      "dvix": -0.59,
+      "entropy": 63.69,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-19",
+      "vix": 18.14,
+      "dvix": 0.9,
+      "entropy": 62.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-20",
+      "vix": 18.09,
+      "dvix": -0.05,
+      "entropy": 53.34,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-21",
+      "vix": 20.87,
+      "dvix": 2.78,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-22",
+      "vix": 20.28,
+      "dvix": -0.59,
+      "entropy": 52.73,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-23",
+      "vix": 22.29,
+      "dvix": 2.01,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-27",
+      "vix": 18.96,
+      "dvix": -3.33,
+      "entropy": 63.88,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-28",
+      "vix": 19.31,
+      "dvix": 0.35,
+      "entropy": 63.88,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-29",
+      "vix": 19.18,
+      "dvix": -0.13,
+      "entropy": 63.88,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-05-30",
+      "vix": 18.57,
+      "dvix": -0.61,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-02",
+      "vix": 18.36,
+      "dvix": -0.21,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-03",
+      "vix": 17.69,
+      "dvix": -0.67,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-04",
+      "vix": 17.61,
+      "dvix": -0.08,
+      "entropy": 59.19,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-05",
+      "vix": 18.48,
+      "dvix": 0.87,
+      "entropy": 59.19,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-06",
+      "vix": 16.77,
+      "dvix": -1.71,
+      "entropy": 59.19,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-09",
+      "vix": 17.16,
+      "dvix": 0.39,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-10",
+      "vix": 16.95,
+      "dvix": -0.21,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-11",
+      "vix": 17.26,
+      "dvix": 0.31,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-12",
+      "vix": 18.02,
+      "dvix": 0.76,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-13",
+      "vix": 20.82,
+      "dvix": 2.8,
+      "entropy": 62.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-16",
+      "vix": 19.11,
+      "dvix": -1.71,
+      "entropy": 62.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-17",
+      "vix": 21.6,
+      "dvix": 2.49,
+      "entropy": 65.41,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-06-18",
+      "vix": 20.14,
+      "dvix": -1.46,
+      "entropy": 63.69,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-20",
+      "vix": 20.62,
+      "dvix": 0.48,
+      "entropy": 65.41,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-06-23",
+      "vix": 19.83,
+      "dvix": -0.79,
+      "entropy": 62.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-24",
+      "vix": 17.48,
+      "dvix": -2.35,
+      "entropy": 67.71,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-06-25",
+      "vix": 16.76,
+      "dvix": -0.72,
+      "entropy": 63.88,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-26",
+      "vix": 16.59,
+      "dvix": -0.17,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-27",
+      "vix": 16.32,
+      "dvix": -0.27,
+      "entropy": 56.23,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-06-30",
+      "vix": 16.73,
+      "dvix": 0.41,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-01",
+      "vix": 16.83,
+      "dvix": 0.1,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-02",
+      "vix": 16.64,
+      "dvix": -0.19,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-03",
+      "vix": 16.38,
+      "dvix": -0.26,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-07",
+      "vix": 17.79,
+      "dvix": 1.41,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-08",
+      "vix": 16.81,
+      "dvix": -0.98,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-09",
+      "vix": 15.94,
+      "dvix": -0.87,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-10",
+      "vix": 15.78,
+      "dvix": -0.16,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-11",
+      "vix": 16.4,
+      "dvix": 0.62,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-14",
+      "vix": 17.2,
+      "dvix": 0.8,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-15",
+      "vix": 17.38,
+      "dvix": 0.18,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-16",
+      "vix": 17.16,
+      "dvix": -0.22,
+      "entropy": 54.47,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-17",
+      "vix": 16.52,
+      "dvix": -0.64,
+      "entropy": 54.47,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-18",
+      "vix": 16.41,
+      "dvix": -0.11,
+      "entropy": 45.1,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-21",
+      "vix": 16.65,
+      "dvix": 0.24,
+      "entropy": 46.46,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-22",
+      "vix": 16.5,
+      "dvix": -0.15,
+      "entropy": 45.1,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-23",
+      "vix": 15.37,
+      "dvix": -1.13,
+      "entropy": 45.1,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-07-24",
+      "vix": 15.39,
+      "dvix": 0.02,
+      "entropy": 37.09,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-07-25",
+      "vix": 14.93,
+      "dvix": -0.46,
+      "entropy": 37.09,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-07-28",
+      "vix": 15.03,
+      "dvix": 0.1,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-07-29",
+      "vix": 15.98,
+      "dvix": 0.95,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-07-30",
+      "vix": 15.48,
+      "dvix": -0.5,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-07-31",
+      "vix": 16.72,
+      "dvix": 1.24,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-08-01",
+      "vix": 20.38,
+      "dvix": 3.66,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-04",
+      "vix": 17.52,
+      "dvix": -2.86,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-05",
+      "vix": 17.85,
+      "dvix": 0.33,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-06",
+      "vix": 16.77,
+      "dvix": -1.08,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-07",
+      "vix": 16.57,
+      "dvix": -0.2,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-08",
+      "vix": 15.15,
+      "dvix": -1.42,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-11",
+      "vix": 16.25,
+      "dvix": 1.1,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-12",
+      "vix": 14.73,
+      "dvix": -1.52,
+      "entropy": 55.61,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-13",
+      "vix": 14.49,
+      "dvix": -0.24,
+      "entropy": 54.47,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-14",
+      "vix": 14.83,
+      "dvix": 0.34,
+      "entropy": 55.61,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-15",
+      "vix": 15.09,
+      "dvix": 0.26,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-18",
+      "vix": 14.99,
+      "dvix": -0.1,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-19",
+      "vix": 15.57,
+      "dvix": 0.58,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-20",
+      "vix": 15.69,
+      "dvix": 0.12,
+      "entropy": 56.17,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-21",
+      "vix": 16.6,
+      "dvix": 0.91,
+      "entropy": 55.61,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-22",
+      "vix": 14.22,
+      "dvix": -2.38,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-25",
+      "vix": 14.79,
+      "dvix": 0.57,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-26",
+      "vix": 14.62,
+      "dvix": -0.17,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-27",
+      "vix": 14.85,
+      "dvix": 0.23,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-28",
+      "vix": 14.43,
+      "dvix": -0.42,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-08-29",
+      "vix": 15.36,
+      "dvix": 0.93,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-02",
+      "vix": 17.17,
+      "dvix": 1.81,
+      "entropy": 51.92,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-03",
+      "vix": 16.35,
+      "dvix": -0.82,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-04",
+      "vix": 15.3,
+      "dvix": -1.05,
+      "entropy": 47.53,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-05",
+      "vix": 15.18,
+      "dvix": -0.12,
+      "entropy": 47.53,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-08",
+      "vix": 15.11,
+      "dvix": -0.07,
+      "entropy": 47.53,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-09",
+      "vix": 15.04,
+      "dvix": -0.07,
+      "entropy": 47.53,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-10",
+      "vix": 15.35,
+      "dvix": 0.31,
+      "entropy": 47.53,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-11",
+      "vix": 14.71,
+      "dvix": -0.64,
+      "entropy": 47.53,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-12",
+      "vix": 14.76,
+      "dvix": 0.05,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-15",
+      "vix": 15.69,
+      "dvix": 0.93,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-16",
+      "vix": 16.36,
+      "dvix": 0.67,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-17",
+      "vix": 15.72,
+      "dvix": -0.64,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-18",
+      "vix": 15.7,
+      "dvix": -0.02,
+      "entropy": 47.53,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-19",
+      "vix": 15.45,
+      "dvix": -0.25,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-22",
+      "vix": 16.1,
+      "dvix": 0.65,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-09-23",
+      "vix": 16.64,
+      "dvix": 0.54,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-09-24",
+      "vix": 16.18,
+      "dvix": -0.46,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-09-25",
+      "vix": 16.74,
+      "dvix": 0.56,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-09-26",
+      "vix": 15.29,
+      "dvix": -1.45,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-09-29",
+      "vix": 16.12,
+      "dvix": 0.83,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-09-30",
+      "vix": 16.28,
+      "dvix": 0.16,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-01",
+      "vix": 16.29,
+      "dvix": 0.01,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-02",
+      "vix": 16.63,
+      "dvix": 0.34,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-03",
+      "vix": 16.65,
+      "dvix": 0.02,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-06",
+      "vix": 16.37,
+      "dvix": -0.28,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-07",
+      "vix": 17.24,
+      "dvix": 0.87,
+      "entropy": 37.09,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-08",
+      "vix": 16.3,
+      "dvix": -0.94,
+      "entropy": 37.09,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-09",
+      "vix": 16.43,
+      "dvix": 0.13,
+      "entropy": 37.09,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-10-10",
+      "vix": 21.66,
+      "dvix": 5.23,
+      "entropy": 45.1,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-10-13",
+      "vix": 19.03,
+      "dvix": -2.63,
+      "entropy": 54.47,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-10-14",
+      "vix": 20.81,
+      "dvix": 1.78,
+      "entropy": 54.47,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-10-15",
+      "vix": 20.64,
+      "dvix": -0.17,
+      "entropy": 55.61,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-10-16",
+      "vix": 25.31,
+      "dvix": 4.67,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-10-17",
+      "vix": 20.78,
+      "dvix": -4.53,
+      "entropy": 67.56,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-20",
+      "vix": 18.23,
+      "dvix": -2.55,
+      "entropy": 71.06,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-21",
+      "vix": 17.87,
+      "dvix": -0.36,
+      "entropy": 72.78,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-22",
+      "vix": 18.6,
+      "dvix": 0.73,
+      "entropy": 72.78,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-23",
+      "vix": 17.3,
+      "dvix": -1.3,
+      "entropy": 72.78,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-24",
+      "vix": 16.37,
+      "dvix": -0.93,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-27",
+      "vix": 15.79,
+      "dvix": -0.58,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-28",
+      "vix": 16.42,
+      "dvix": 0.63,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-29",
+      "vix": 16.92,
+      "dvix": 0.5,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-30",
+      "vix": 16.91,
+      "dvix": -0.01,
+      "entropy": 74.13,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-10-31",
+      "vix": 17.44,
+      "dvix": 0.53,
+      "entropy": 74.13,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-03",
+      "vix": 17.17,
+      "dvix": -0.27,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-04",
+      "vix": 19.0,
+      "dvix": 1.83,
+      "entropy": 74.13,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-05",
+      "vix": 18.01,
+      "dvix": -0.99,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-06",
+      "vix": 19.5,
+      "dvix": 1.49,
+      "entropy": 74.13,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-07",
+      "vix": 19.08,
+      "dvix": -0.42,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-10",
+      "vix": 17.6,
+      "dvix": -1.48,
+      "entropy": 68.84,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-11",
+      "vix": 17.28,
+      "dvix": -0.32,
+      "entropy": 63.62,
+      "active_bins": 5.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-11-12",
+      "vix": 17.51,
+      "dvix": 0.23,
+      "entropy": 63.62,
+      "active_bins": 5.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-11-13",
+      "vix": 20.0,
+      "dvix": 2.49,
+      "entropy": 72.52,
+      "active_bins": 6.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2025-11-14",
+      "vix": 19.83,
+      "dvix": -0.17,
+      "entropy": 63.62,
+      "active_bins": 5.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-11-17",
+      "vix": 22.38,
+      "dvix": 2.55,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-11-18",
+      "vix": 24.69,
+      "dvix": 2.31,
+      "entropy": 54.86,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-11-19",
+      "vix": 23.66,
+      "dvix": -1.03,
+      "entropy": 54.86,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-11-20",
+      "vix": 26.42,
+      "dvix": 2.76,
+      "entropy": 56.51,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-11-21",
+      "vix": 23.43,
+      "dvix": -2.99,
+      "entropy": 65.41,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-11-24",
+      "vix": 20.52,
+      "dvix": -2.91,
+      "entropy": 70.37,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-11-25",
+      "vix": 18.56,
+      "dvix": -1.96,
+      "entropy": 70.37,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-11-26",
+      "vix": 17.19,
+      "dvix": -1.37,
+      "entropy": 68.91,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-11-28",
+      "vix": 16.35,
+      "dvix": -0.84,
+      "entropy": 66.66,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-01",
+      "vix": 17.24,
+      "dvix": 0.89,
+      "entropy": 68.91,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-02",
+      "vix": 16.59,
+      "dvix": -0.65,
+      "entropy": 66.66,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-03",
+      "vix": 16.08,
+      "dvix": -0.51,
+      "entropy": 66.66,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-04",
+      "vix": 15.78,
+      "dvix": -0.3,
+      "entropy": 63.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-05",
+      "vix": 15.41,
+      "dvix": -0.37,
+      "entropy": 63.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-08",
+      "vix": 16.66,
+      "dvix": 1.25,
+      "entropy": 63.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-09",
+      "vix": 16.93,
+      "dvix": 0.27,
+      "entropy": 66.66,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-10",
+      "vix": 15.77,
+      "dvix": -1.16,
+      "entropy": 66.66,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-11",
+      "vix": 14.85,
+      "dvix": -0.92,
+      "entropy": 66.66,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-12",
+      "vix": 15.74,
+      "dvix": 0.89,
+      "entropy": 66.66,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-15",
+      "vix": 16.5,
+      "dvix": 0.76,
+      "entropy": 65.99,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-16",
+      "vix": 16.48,
+      "dvix": -0.02,
+      "entropy": 65.99,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2025-12-17",
+      "vix": 17.62,
+      "dvix": 1.14,
+      "entropy": 63.88,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-18",
+      "vix": 16.87,
+      "dvix": -0.75,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-19",
+      "vix": 14.91,
+      "dvix": -1.96,
+      "entropy": 58.41,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-22",
+      "vix": 14.08,
+      "dvix": -0.83,
+      "entropy": 49.04,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-23",
+      "vix": 14.0,
+      "dvix": -0.08,
+      "entropy": 43.15,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2025-12-24",
+      "vix": 13.47,
+      "dvix": -0.53,
+      "entropy": 33.39,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-12-26",
+      "vix": 13.6,
+      "dvix": 0.13,
+      "entropy": 35.52,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-12-29",
+      "vix": 14.2,
+      "dvix": 0.6,
+      "entropy": 37.09,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-12-30",
+      "vix": 14.33,
+      "dvix": 0.13,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2025-12-31",
+      "vix": 14.95,
+      "dvix": 0.62,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-02",
+      "vix": 14.51,
+      "dvix": -0.44,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-05",
+      "vix": 14.9,
+      "dvix": 0.39,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-06",
+      "vix": 14.75,
+      "dvix": -0.15,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-07",
+      "vix": 15.38,
+      "dvix": 0.63,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-08",
+      "vix": 15.45,
+      "dvix": 0.07,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-09",
+      "vix": 14.49,
+      "dvix": -0.96,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-12",
+      "vix": 15.12,
+      "dvix": 0.63,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-13",
+      "vix": 15.98,
+      "dvix": 0.86,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-14",
+      "vix": 16.75,
+      "dvix": 0.77,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-15",
+      "vix": 15.84,
+      "dvix": -0.91,
+      "entropy": 38.62,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-16",
+      "vix": 15.86,
+      "dvix": 0.02,
+      "entropy": 38.11,
+      "active_bins": 2.0,
+      "regime": "low"
+    },
+    {
+      "date": "2026-01-20",
+      "vix": 20.09,
+      "dvix": 4.23,
+      "entropy": 47.26,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-21",
+      "vix": 16.9,
+      "dvix": -3.19,
+      "entropy": 55.61,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-22",
+      "vix": 15.64,
+      "dvix": -1.26,
+      "entropy": 55.61,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-23",
+      "vix": 16.09,
+      "dvix": 0.45,
+      "entropy": 54.47,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-26",
+      "vix": 16.15,
+      "dvix": 0.06,
+      "entropy": 52.73,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-27",
+      "vix": 16.35,
+      "dvix": 0.2,
+      "entropy": 50.34,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-28",
+      "vix": 16.35,
+      "dvix": 0.0,
+      "entropy": 52.73,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-29",
+      "vix": 16.88,
+      "dvix": 0.53,
+      "entropy": 52.73,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-01-30",
+      "vix": 17.44,
+      "dvix": 0.56,
+      "entropy": 52.73,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-02",
+      "vix": 16.34,
+      "dvix": -1.1,
+      "entropy": 54.47,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-03",
+      "vix": 18.0,
+      "dvix": 1.66,
+      "entropy": 52.73,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-04",
+      "vix": 18.64,
+      "dvix": 0.64,
+      "entropy": 52.73,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-05",
+      "vix": 21.77,
+      "dvix": 3.13,
+      "entropy": 59.91,
+      "active_bins": 5.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-06",
+      "vix": 20.37,
+      "dvix": -1.4,
+      "entropy": 62.1,
+      "active_bins": 5.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-09",
+      "vix": 17.36,
+      "dvix": -3.01,
+      "entropy": 67.56,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-02-10",
+      "vix": 17.79,
+      "dvix": 0.43,
+      "entropy": 65.6,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-02-11",
+      "vix": 17.65,
+      "dvix": -0.14,
+      "entropy": 67.56,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-02-12",
+      "vix": 20.82,
+      "dvix": 3.17,
+      "entropy": 72.78,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-02-13",
+      "vix": 20.6,
+      "dvix": -0.22,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-02-17",
+      "vix": 20.29,
+      "dvix": -0.31,
+      "entropy": 73.79,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-02-18",
+      "vix": 19.62,
+      "dvix": -0.67,
+      "entropy": 74.13,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-02-19",
+      "vix": 20.23,
+      "dvix": 0.61,
+      "entropy": 65.78,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-02-20",
+      "vix": 19.09,
+      "dvix": -1.14,
+      "entropy": 61.12,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-23",
+      "vix": 21.01,
+      "dvix": 1.92,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-24",
+      "vix": 19.55,
+      "dvix": -1.46,
+      "entropy": 61.12,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-25",
+      "vix": 17.93,
+      "dvix": -1.62,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-26",
+      "vix": 18.63,
+      "dvix": 0.7,
+      "entropy": 60.83,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-02-27",
+      "vix": 19.86,
+      "dvix": 1.23,
+      "entropy": 61.12,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-03-02",
+      "vix": 21.44,
+      "dvix": 1.58,
+      "entropy": 61.12,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-03-03",
+      "vix": 23.57,
+      "dvix": 2.13,
+      "entropy": 64.39,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-03-04",
+      "vix": 21.15,
+      "dvix": -2.42,
+      "entropy": 69.05,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-05",
+      "vix": 23.75,
+      "dvix": 2.6,
+      "entropy": 71.08,
+      "active_bins": 4.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-06",
+      "vix": 29.49,
+      "dvix": 5.74,
+      "entropy": 78.71,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-09",
+      "vix": 25.5,
+      "dvix": -3.99,
+      "entropy": 79.62,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-10",
+      "vix": 24.93,
+      "dvix": -0.57,
+      "entropy": 79.62,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-11",
+      "vix": 24.23,
+      "dvix": -0.7,
+      "entropy": 76.35,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-12",
+      "vix": 27.29,
+      "dvix": 3.06,
+      "entropy": 77.55,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-13",
+      "vix": 27.19,
+      "dvix": -0.1,
+      "entropy": 77.55,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-16",
+      "vix": 23.51,
+      "dvix": -3.68,
+      "entropy": 78.46,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-17",
+      "vix": 22.37,
+      "dvix": -1.14,
+      "entropy": 78.46,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-18",
+      "vix": 25.09,
+      "dvix": 2.72,
+      "entropy": 80.82,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-19",
+      "vix": 24.06,
+      "dvix": -1.03,
+      "entropy": 80.82,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-20",
+      "vix": 26.78,
+      "dvix": 2.72,
+      "entropy": 80.82,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-23",
+      "vix": 26.15,
+      "dvix": -0.63,
+      "entropy": 80.82,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-24",
+      "vix": 26.95,
+      "dvix": 0.8,
+      "entropy": 80.82,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-25",
+      "vix": 25.33,
+      "dvix": -1.62,
+      "entropy": 80.82,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-26",
+      "vix": 27.44,
+      "dvix": 2.11,
+      "entropy": 81.65,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-27",
+      "vix": 31.05,
+      "dvix": 3.61,
+      "entropy": 80.0,
+      "active_bins": 5.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-03-30",
+      "vix": 30.61,
+      "dvix": -0.44,
+      "entropy": 77.06,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-03-31",
+      "vix": 25.25,
+      "dvix": -5.36,
+      "entropy": 80.75,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "vix": 24.54,
+      "dvix": -0.71,
+      "entropy": 80.03,
+      "active_bins": 6.0,
+      "regime": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "vix": 23.87,
+      "dvix": -0.67,
+      "entropy": 76.47,
+      "active_bins": 6.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-04-06",
+      "vix": 24.17,
+      "dvix": 0.3,
+      "entropy": 79.97,
+      "active_bins": 6.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-04-07",
+      "vix": 25.78,
+      "dvix": 1.61,
+      "entropy": 74.89,
+      "active_bins": 5.0,
+      "regime": "elevated"
+    },
+    {
+      "date": "2026-04-08",
+      "vix": 21.04,
+      "dvix": -4.74,
+      "entropy": 74.89,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-04-09",
+      "vix": 19.49,
+      "dvix": -1.55,
+      "entropy": 74.89,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-04-10",
+      "vix": 19.23,
+      "dvix": -0.26,
+      "entropy": 74.89,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-04-13",
+      "vix": 19.12,
+      "dvix": -0.11,
+      "entropy": 72.64,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-04-14",
+      "vix": 18.36,
+      "dvix": -0.76,
+      "entropy": 72.64,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-04-15",
+      "vix": 18.17,
+      "dvix": -0.19,
+      "entropy": 63.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-16",
+      "vix": 17.94,
+      "dvix": -0.23,
+      "entropy": 63.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-17",
+      "vix": 17.48,
+      "dvix": -0.46,
+      "entropy": 60.1,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-20",
+      "vix": 18.87,
+      "dvix": 1.39,
+      "entropy": 63.49,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-21",
+      "vix": 19.5,
+      "dvix": 0.63,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-22",
+      "vix": 18.92,
+      "dvix": -0.58,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-23",
+      "vix": 19.31,
+      "dvix": 0.39,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-24",
+      "vix": 18.71,
+      "dvix": -0.6,
+      "entropy": 61.91,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-27",
+      "vix": 18.02,
+      "dvix": -0.69,
+      "entropy": 56.23,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-28",
+      "vix": 17.83,
+      "dvix": -0.19,
+      "entropy": 46.65,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-29",
+      "vix": 18.81,
+      "dvix": 0.98,
+      "entropy": 49.04,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-04-30",
+      "vix": 16.89,
+      "dvix": -1.92,
+      "entropy": 43.15,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-05-01",
+      "vix": 16.99,
+      "dvix": 0.1,
+      "entropy": 45.1,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    }
+  ]
+}

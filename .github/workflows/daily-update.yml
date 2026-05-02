@@ -1,0 +1,42 @@
+name: Daily VIX Entropy Update
+
+on:
+  schedule:
+    # Läuft täglich um 23:00 UTC (= 00:00 deutsche Winterzeit / 01:00 Sommerzeit)
+    # Nach US-Börsenschluss (22:00 UTC), damit der Schlusskurs verfügbar ist.
+    - cron: '0 23 * * 1-5'
+  workflow_dispatch:  # Erlaubt manuelles Auslösen über GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install yfinance pandas numpy
+
+      - name: Run update script
+        run: python update_vix.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Auto-Update: VIX-Daten $(date +'%Y-%m-%d')"
+            git push
+          fi
