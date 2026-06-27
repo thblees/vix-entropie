@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-06-26 00:06 UTC",
+  "updated_utc": "2026-06-27 00:02 UTC",
   "latest": {
-    "date": "2026-06-25",
-    "vix": 18.89,
+    "date": "2026-06-26",
+    "vix": 18.41,
     "entropy": 79.62,
     "active_bins": 5,
     "regime": "danger_zone"
@@ -16,14 +16,6 @@
     ">+4": 1
   },
   "history": [
-    {
-      "date": "2025-06-26",
-      "vix": 16.59,
-      "dvix": -0.17,
-      "entropy": 58.41,
-      "active_bins": 4.0,
-      "regime": "moderate"
-    },
     {
       "date": "2025-06-27",
       "vix": 16.32,
@@ -2028,6 +2020,14 @@
       "date": "2026-06-25",
       "vix": 18.89,
       "dvix": 0.26,
+      "entropy": 79.62,
+      "active_bins": 5.0,
+      "regime": "danger_zone"
+    },
+    {
+      "date": "2026-06-26",
+      "vix": 18.41,
+      "dvix": -0.48,
       "entropy": 79.62,
       "active_bins": 5.0,
       "regime": "danger_zone"
