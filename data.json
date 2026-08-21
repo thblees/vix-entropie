@@ -1,53 +1,21 @@
 {
-  "updated_utc": "2026-08-20 23:20 UTC",
+  "updated_utc": "2026-08-21 23:18 UTC",
   "latest": {
-    "date": "2026-08-20",
-    "vix": 16.01,
-    "entropy": 55.61,
+    "date": "2026-08-21",
+    "vix": 15.13,
+    "entropy": 54.47,
     "active_bins": 4,
     "regime": "moderate"
   },
   "current_bin_distribution": {
     "<-4": 0,
     "-4..-2": 1,
-    "-2..0": 11,
-    "0..+2": 8,
+    "-2..0": 12,
+    "0..+2": 7,
     "+2..+4": 1,
     ">+4": 0
   },
   "history": [
-    {
-      "date": "2025-08-18",
-      "vix": 14.99,
-      "dvix": -0.1,
-      "entropy": 56.17,
-      "active_bins": 4.0,
-      "regime": "moderate"
-    },
-    {
-      "date": "2025-08-19",
-      "vix": 15.57,
-      "dvix": 0.58,
-      "entropy": 56.17,
-      "active_bins": 4.0,
-      "regime": "moderate"
-    },
-    {
-      "date": "2025-08-20",
-      "vix": 15.69,
-      "dvix": 0.12,
-      "entropy": 56.17,
-      "active_bins": 4.0,
-      "regime": "moderate"
-    },
-    {
-      "date": "2025-08-21",
-      "vix": 16.6,
-      "dvix": 0.91,
-      "entropy": 55.61,
-      "active_bins": 4.0,
-      "regime": "moderate"
-    },
     {
       "date": "2025-08-22",
       "vix": 14.22,
@@ -1873,10 +1841,26 @@
       "regime": "moderate"
     },
     {
+      "date": "2026-07-21",
+      "vix": 17.05,
+      "dvix": -1.6,
+      "entropy": 53.34,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-07-22",
+      "vix": 16.64,
+      "dvix": -0.41,
+      "entropy": 51.15,
+      "active_bins": 3.0,
+      "regime": "moderate"
+    },
+    {
       "date": "2026-07-23",
       "vix": 18.7,
-      "dvix": 0.05,
-      "entropy": 54.86,
+      "dvix": 2.06,
+      "entropy": 51.15,
       "active_bins": 3.0,
       "regime": "moderate"
     },
@@ -1884,7 +1868,7 @@
       "date": "2026-07-24",
       "vix": 18.58,
       "dvix": -0.12,
-      "entropy": 53.34,
+      "entropy": 51.15,
       "active_bins": 3.0,
       "regime": "moderate"
     },
@@ -1892,7 +1876,7 @@
       "date": "2026-07-27",
       "vix": 18.67,
       "dvix": 0.09,
-      "entropy": 50.78,
+      "entropy": 51.15,
       "active_bins": 3.0,
       "regime": "moderate"
     },
@@ -1900,7 +1884,7 @@
       "date": "2026-07-28",
       "vix": 18.21,
       "dvix": -0.46,
-      "entropy": 50.78,
+      "entropy": 51.15,
       "active_bins": 3.0,
       "regime": "moderate"
     },
@@ -1908,7 +1892,7 @@
       "date": "2026-07-29",
       "vix": 20.66,
       "dvix": 2.45,
-      "entropy": 53.34,
+      "entropy": 54.55,
       "active_bins": 3.0,
       "regime": "moderate"
     },
@@ -1916,15 +1900,23 @@
       "date": "2026-07-30",
       "vix": 17.09,
       "dvix": -3.57,
-      "entropy": 62.49,
+      "entropy": 63.69,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-07-31",
+      "vix": 15.99,
+      "dvix": -1.1,
+      "entropy": 61.19,
       "active_bins": 4.0,
       "regime": "moderate"
     },
     {
       "date": "2026-08-03",
       "vix": 15.86,
-      "dvix": -1.23,
-      "entropy": 62.49,
+      "dvix": -0.13,
+      "entropy": 61.19,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1932,7 +1924,7 @@
       "date": "2026-08-04",
       "vix": 16.5,
       "dvix": 0.64,
-      "entropy": 63.76,
+      "entropy": 63.69,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1940,7 +1932,7 @@
       "date": "2026-08-05",
       "vix": 15.81,
       "dvix": -0.69,
-      "entropy": 62.49,
+      "entropy": 61.19,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1948,7 +1940,7 @@
       "date": "2026-08-06",
       "vix": 15.15,
       "dvix": -0.66,
-      "entropy": 62.49,
+      "entropy": 57.8,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1956,7 +1948,7 @@
       "date": "2026-08-07",
       "vix": 14.9,
       "dvix": -0.25,
-      "entropy": 62.49,
+      "entropy": 57.8,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1964,7 +1956,7 @@
       "date": "2026-08-10",
       "vix": 15.46,
       "dvix": 0.56,
-      "entropy": 62.49,
+      "entropy": 61.19,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1972,7 +1964,7 @@
       "date": "2026-08-11",
       "vix": 15.28,
       "dvix": -0.18,
-      "entropy": 60.52,
+      "entropy": 57.8,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1980,7 +1972,7 @@
       "date": "2026-08-12",
       "vix": 14.55,
       "dvix": -0.73,
-      "entropy": 60.52,
+      "entropy": 57.8,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1988,7 +1980,7 @@
       "date": "2026-08-13",
       "vix": 14.63,
       "dvix": 0.08,
-      "entropy": 62.49,
+      "entropy": 60.52,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -1996,7 +1988,7 @@
       "date": "2026-08-14",
       "vix": 14.25,
       "dvix": -0.38,
-      "entropy": 58.41,
+      "entropy": 57.8,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -2004,7 +1996,7 @@
       "date": "2026-08-17",
       "vix": 15.19,
       "dvix": 0.94,
-      "entropy": 59.93,
+      "entropy": 56.23,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -2012,7 +2004,7 @@
       "date": "2026-08-18",
       "vix": 15.84,
       "dvix": 0.65,
-      "entropy": 60.83,
+      "entropy": 58.41,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -2020,7 +2012,7 @@
       "date": "2026-08-19",
       "vix": 14.89,
       "dvix": -0.95,
-      "entropy": 59.93,
+      "entropy": 58.41,
       "active_bins": 4.0,
       "regime": "moderate"
     },
@@ -2028,7 +2020,15 @@
       "date": "2026-08-20",
       "vix": 16.01,
       "dvix": 1.12,
-      "entropy": 55.61,
+      "entropy": 59.93,
+      "active_bins": 4.0,
+      "regime": "moderate"
+    },
+    {
+      "date": "2026-08-21",
+      "vix": 15.13,
+      "dvix": -0.88,
+      "entropy": 54.47,
       "active_bins": 4.0,
       "regime": "moderate"
     }
