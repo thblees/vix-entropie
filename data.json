@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-11-14 02:52 UTC",
+  "updated_utc": "2026-11-17 04:56 UTC",
   "latest": {
-    "date": "2026-11-13",
-    "vix": 19.3,
+    "date": "2026-11-16",
+    "vix": 22.91,
     "entropy": 83.53,
     "active_bins": 6,
-    "regime": "danger_zone"
+    "regime": "high"
   },
   "current_bin_distribution": {
     "<-4": 2,
@@ -16,14 +16,6 @@
     ">+4": 1
   },
   "history": [
-    {
-      "date": "2025-11-17",
-      "vix": 22.38,
-      "dvix": 2.55,
-      "entropy": 59.93,
-      "active_bins": 4.0,
-      "regime": "moderate"
-    },
     {
       "date": "2025-11-18",
       "vix": 24.69,
@@ -2031,6 +2023,14 @@
       "entropy": 83.53,
       "active_bins": 6.0,
       "regime": "danger_zone"
+    },
+    {
+      "date": "2026-11-16",
+      "vix": 22.91,
+      "dvix": 3.61,
+      "entropy": 83.53,
+      "active_bins": 6.0,
+      "regime": "high"
     }
   ]
 }
